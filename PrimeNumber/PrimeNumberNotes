@@ -1,0 +1,26 @@
+Reference link: https://chatgpt.com/share/696ce23e-9a28-8009-b888-9ce17936b7a5
+1. Prime number is a number which is multiplied by itself and by 1.
+2. So we need a variable to store a number.
+3. Then we need to check that number must only be multiplied by 1 and by itself.
+
+This is an efficient way to write the Prime number
+In previous Prime number we run the loop all the way to the entered number but actually
+we can just check half the number because A number cannot have a divisor greater than half of itself
+Except the number itself, which we are not checking. For Example
+Take 29:
+
+Half of 29 = 14
+
+Any number greater than 14 (15–28) cannot divide 29
+
+So checking beyond 29 / 2 is unnecessary
+
+Another example (non-prime)
+
+Take 12:
+
+Half of 12 = 6
+
+Divisors of 12 → 2, 3, 4, 6
+
+All divisors are ≤ 12 / 2
